@@ -1,0 +1,82 @@
+.footer{
+    height: 49vh;
+    background-color: #171223;
+    color:white;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+}
+.fls{
+    font-size: 32px;
+    font-weight: bold;
+}
+.finput{
+    height: 52px;
+    border-radius: 43px;
+    width:200px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color:black;
+    overflow: scroll;
+    margin: auto;
+}
+.fsub{
+
+    height:52px;
+    border-bottom-right-radius: 32px;
+    width:200px;
+    background: radial-gradient(80.65% 541.58% at 84.92% 0%, #AD00FF 0%, #FF5665 87.67%)
+}
+.fl{
+    margin-top: 45px;
+}
+.flx{
+    display: flex;
+}
+.lk{
+    flex-direction: column;
+}
+.flx{
+  
+    width:300px;
+    padding: 22px;
+    background-color:#272134 ;
+}
+.nhelp{
+    font-weight: bold;
+    font-size: 22px;
+}
+@media screen and (max-width:767px) {
+    .footer{
+        flex-direction: column;
+        height:auto;
+        padding:25px;
+    }
+    .flx{
+        margin-top: 64px;
+        width:100%;
+    }
+    .fsub{
+        position: absolute;
+        width: 100px;
+    }
+}
+
+@media  screen and (min-width:1200px) {
+    .flx{
+     margin-left: 600px;
+    }
+    
+}
+@media screen and (min-width:767px) and (max-width:1200px) {
+    .flx{
+        margin-left: 100px;
+    }
+    
+}
+@media screen and (max-width:350px) {
+    .fsub{
+        position: relative;
+    }
+    
+}

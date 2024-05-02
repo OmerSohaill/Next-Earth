@@ -1,0 +1,103 @@
+.parallax {
+    background-image: url('https://nextearth.io/modules/main/images/new/banner_grid_v02.png');
+    background-size: cover;
+    background-attachment: fixed; /* Add the parallax effect */
+    background-color: #360556; /* Background color remains same */
+    height: 100vh; /* Adjust as needed */
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    max-width: 800px; /* Adjust as needed */
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Your existing styles */
+.hn {
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 7px;
+}
+
+.hp {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.homebox {
+    margin-left: 20px;
+    margin-top: 37px;
+    font-size: 29px;
+}
+
+.homedec {
+    padding: 60px;
+    background-color: #2A1040;
+    color: #57D4BC;
+    border-radius: 22px;
+    font-weight: bold;
+    margin-top: 23px;
+}
+
+.him {
+    display: flex;
+    justify-content: center;
+}
+
+.he {
+    font-size: 22px;
+    margin-top: 63px;
+}
+
+@media screen and (max-width:1200px) {
+    .hn{
+        font-size: 32px;
+    }
+    .hp{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:723px) {
+    .hn{
+        margin-top: 380px;
+    }
+    
+}
+
+@media screen and (max-width:530px) {
+    .hn{
+        margin-top: 680px;
+    }
+    
+}
+
+@media screen and (max-width:365px) {
+    .hn{
+        margin-top: 780px;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .hn{
+        font-size: 26px;
+
+    }
+    .hp{
+        font-size: 16px;
+    }
+   
+    .he{
+        font-size: 16px;
+    }
+    .homedec{
+        padding: 10px;
+    }
+    
+}

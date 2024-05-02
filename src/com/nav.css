@@ -1,0 +1,28 @@
+.nb{
+    background-color: #3B045D;
+}
+.nlr{
+    border:solid;
+    padding:5px;
+    color:white;
+    width:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    border-width: 0.2ch;
+}
+.nlr:hover{
+    background-color: white;
+}
+.nm{
+    color:white;
+    margin-right: 80px;
+}
+.nm:hover{
+    color: rgb(207, 205, 199);
+}
+
+/* @media screen and (max-width:) {
+    
+} */
