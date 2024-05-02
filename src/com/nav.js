@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './nav.css';
+import { Link } from 'react-router-dom';
 
 function Nav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ function Nav() {
                 </div>
                 {/* Navigation Links */}
                 <nav className={`md:flex md:ml-auto items-center text-base justify-center ${isMenuOpen ? 'block' : 'hidden'}`}>
-                    <a className="mr-5 hover:text-gray-900 nm">MAP</a>
+                    <Link to="/home" className="mr-5 hover:text-gray-900 nm">MAP</Link>
                     <a className="mr-5 hover:text-gray-900 nlr">Login</a>
                 </nav>
             </div>

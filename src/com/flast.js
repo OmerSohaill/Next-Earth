@@ -2,7 +2,7 @@ import './flast.css'
 function Flast() {
     return (
         <>
-            <div className="grid sm:grid-cols-5 lst">
+            <div className="grid md:grid-cols-5 lst">
                 <div className="last">
                     <img className="flxv" src="https://nextearth.io/modules/_site/images/logo_footer.png"></img>
                     <p className="flxv dim" >NFT based, transparent digital land purchasing platform without a middle-man. Instantly buying selling land, directly from your wallet.</p>
@@ -17,7 +17,7 @@ function Flast() {
 
                     <p className="flxv" >© Nextearth • 2023</p>
                 </div>
-                <div className="">
+                
 
 
                     <div className="last fr">
@@ -51,7 +51,7 @@ function Flast() {
                     <p className="dim kj" > Cookie settings</p>
                     </div>
 
-                </div>
+                
             </div>
         </>
     )
