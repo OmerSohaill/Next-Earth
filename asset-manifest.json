@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OmerSohaill/Next-Earth.git/static/css/main.b72f06cc.css",
+    "main.js": "/OmerSohaill/Next-Earth.git/static/js/main.197e74cf.js",
+    "static/js/453.ad6eb26e.chunk.js": "/OmerSohaill/Next-Earth.git/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/OmerSohaill/Next-Earth.git/index.html",
+    "main.b72f06cc.css.map": "/OmerSohaill/Next-Earth.git/static/css/main.b72f06cc.css.map",
+    "main.197e74cf.js.map": "/OmerSohaill/Next-Earth.git/static/js/main.197e74cf.js.map",
+    "453.ad6eb26e.chunk.js.map": "/OmerSohaill/Next-Earth.git/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b72f06cc.css",
+    "static/js/main.197e74cf.js"
+  ]
+}
